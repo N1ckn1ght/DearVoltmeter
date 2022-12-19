@@ -102,7 +102,7 @@ with dpg.theme() as global_theme:
     with dpg.theme_component(dpg.mvAll):
         dpg.add_theme_style(dpg.mvStyleVar_ItemSpacing, 4, 4, category=dpg.mvThemeCat_Core)
         dpg.add_theme_color(dpg.mvThemeCol_WindowBg, (255, 179, 198), category=dpg.mvThemeCat_Core)
-        dpg.add_theme_color(dpg.mvThemeCol_Border, (255, 229, 236), category=dpg.mvThemeCat_Core)
+        dpg.add_theme_color(dpg.mvThemeCol_Border, (255, 179, 198), category=dpg.mvThemeCat_Core)
         dpg.add_theme_color(dpg.mvThemeCol_Text, (255, 229, 236), category=dpg.mvThemeCat_Core)
         dpg.add_theme_color(dpg.mvThemeCol_FrameBg, (251, 111, 146), category=dpg.mvThemeCat_Core)
         dpg.add_theme_color(dpg.mvThemeCol_Button, (251, 111, 146), category=dpg.mvThemeCat_Core)
