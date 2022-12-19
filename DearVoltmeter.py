@@ -59,7 +59,7 @@ def show_average(sender, app_data, user_data):
     
 
 dpg.create_context()
-dpg.create_viewport(title="Barbie's Dear Calculator", width=Data.window_width, height=Data.window_height, resizable=False)
+dpg.create_viewport(title="Barbie's Dear Voltmeter", width=Data.window_width, height=Data.window_height, resizable=False)
 
 with dpg.font_registry():
     default_font = dpg.add_font(f'fonts\consola.ttf', 24)
